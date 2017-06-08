@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
-const state = {totalTime: 0,
+const state = {
+	totalTime: 1.5,
 	list: [{user: {userName: '小敏',
 		imgSrc: 'https://sfault-avatar.b0.upaiyun.com/888/223/888223038-5646dbc28d530_huge256'
 	},

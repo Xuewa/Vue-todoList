@@ -14,8 +14,8 @@
     </nav>
 
     <div class="container">
-      <div class="col-sm-3">
-        
+      <div class="col-sm-3">P
+        <sidebar></sidebar>
       </div>
       <div class="col-sm-9">
         <router-view></router-view>
@@ -29,3 +29,12 @@
     display: inline-block;
   }
 </style>
+<script type="text/javascript">
+  import Sidebar from './components/Sidebar'
+  export default {
+    components: {
+      'sidebar': Sidebar
+    }
+  }
+  
+</script>
