@@ -1,0 +1,4 @@
+export const DEC_TOTAL_TIME = 'DEC_TOTAL_TIME'
+export const DEC_TOTAL_PLAN = 'DEC_TOTAL_PLAN'
+export const ADD_TOTAL_TIME = 'ADD_TOTAL_TIME'
+export const ADD_TOTAL_PLAN = 'ADD_TOTAL_PLAN'

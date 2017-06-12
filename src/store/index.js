@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
+import mutations from './mutations'
+import actions from './actions'
 Vue.use(Vuex)
 const state = {
 	totalTime: 1.5,
@@ -11,4 +12,4 @@ const state = {
 		desc: '我要做一件傻事',
 		useTime: 1.5}]
 }
-export default new Vuex.Store({state})
+export default new Vuex.Store({state, mutations, actions})

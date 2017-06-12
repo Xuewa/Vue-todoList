@@ -25,7 +25,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'indent': ['error', 'tab'],
     'brace-style': [2, '1tbs', {'allowSingleLine':true}],
-    'no-tabs':'off'
+    'no-tabs':'off',
+    'space-before-function-paren': [0, 'always']  
   
   }
 }

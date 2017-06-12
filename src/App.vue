@@ -14,7 +14,7 @@
     </nav>
 
     <div class="container">
-      <div class="col-sm-3">P
+      <div class="col-sm-2">
         <sidebar></sidebar>
       </div>
       <div class="col-sm-9">
