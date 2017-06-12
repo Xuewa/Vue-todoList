@@ -3,7 +3,7 @@
 		<div class="form-group">
 			<label for="useTime" class="col-sm-3">用户时间</label>
 			<div class="col-sm-9">
-				<input type="text" v-model="useTime">
+				<input type="text" v-model.number="useTime">
 			</div>
 		</div>
 		<div class="form-group">
