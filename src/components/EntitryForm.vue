@@ -52,7 +52,7 @@
 				this.$store.dispatch('addTotalTime', this.useTime)
 				this.$store.dispatch('addPlan', plan)
 				// console.log(this.$route)
-				this.$router.go(-1)
+				this.$router.replace('/time-entries')
 			}
 		}
 	}
